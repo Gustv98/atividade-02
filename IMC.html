@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="IMC.css">
+        <script type="text/javascript" src="IMC.js"></script>
+    </head>
+
+    <body>
+        <center>Calculo do IMC</center>
+        <b id="altura">Informe a sua altura:</b>
+        <br>
+        <input type="number" id="numero1" value="" maxlength="10" >
+        <br>
+        <b id="peso">Informe o seu peso:</b>
+        <br>
+        <input type="number" id="numero2" value="" maxlength="10"><br><br>
+
+        <input type="radio" name="genero" id="masculino">Masculino<br>
+        <input type="radio" name="genero" id="feminino">Feminino<br><br>
+
+        <input type="button" id="botao" onclick="javascript:imc();" name="name" value="Enviar">
+        <input type="text" id="resultado" value="">
+    </body>
+</html>
