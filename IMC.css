@@ -1,0 +1,18 @@
+#numero1{
+    width: 120px;
+    height: 23px;
+    border-color: black;
+    
+}
+#numero2{
+    width: 120px;
+    height: 23px;
+    border-color: black;
+    
+}
+#altura{
+    font-size: 20px;
+}
+#peso{
+    font-size: 20px;
+}
